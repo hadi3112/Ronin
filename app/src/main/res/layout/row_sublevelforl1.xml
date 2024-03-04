@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="sublevelforl1RowModel" type="com.muhammadsapplication.app.modules.levelsplay.data.model.Sublevelforl1RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackvectortwentytwoFive"
+        android:layout_height="wrap_content" android:layout_width="@dimen/_83pxh">
+        <ImageView android:id="@+id/imageVectorTwentyTwoFive"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_90pxh"
+            android:layout_width="@dimen/_83pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_vector22"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_vector22"/>
+        <FrameLayout android:id="@+id/frameStackuser"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_81pxv"
+            android:layout_marginBottom="@dimen/_4pxv"
+            android:layout_marginEnd="@dimen/_3pxh"
+            android:layout_marginStart="@dimen/_4pxh"
+            android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_75pxh">
+            <ImageView android:id="@+id/imageUserFive"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_81pxh"
+                android:layout_width="@dimen/_75pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_user"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+            <LinearLayout android:id="@+id/linearColumnclock"
+                android:layout_gravity="top|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_11pxv"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <FrameLayout android:id="@+id/frameLock"
+                    android:layout_height="@dimen/_20pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_4pxh" android:layout_width="@dimen/_22pxh">
+                    <ImageView android:id="@+id/imageClockThree"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_width="@dimen/_22pxh"
+                        android:scaleType="centerCrop"
+                        circular="@{true}"
+                        imageRes="@{@drawable/img_clock}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_clock"/>
+                    <ImageView android:id="@+id/imageNicePngpadlockSix"
+                        android:layout_gravity="top|center"
+                        android:layout_height="@dimen/_11pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_6pxh"
+                        android:layout_marginStart="@dimen/_6pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="@dimen/_9pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_nicepngpadlock"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_nicepngpadlock"/>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtArrays"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{sublevelforl1RowModel.txtArrays}"
+                    style="@style/txtPoppinsregular10_3" tools:text="@string/lbl_arrays"/>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

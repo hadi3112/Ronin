@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">muhammad_s_application3</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_marks">(marks) / </string>
+  <string name="lbl_12_000_pts">12,000 pts</string>
+  <string name="msg_challenge_2">Challenge# 2:
+
+MP3 Player</string>
+  <string name="msg_challenge_3">Challenge# 3:
+
+Arithmatic Logic
+Problems</string>
+  <string name="lbl_object_oriented">Object Oriented</string>
+  <string name="msg_choose_a_langua">Choose a language or domain
+you want to get good at</string>
+  <string name="msg_challenge_1">Challenge# 1:
+
+Grade Finder</string>
+  <string name="msg_c_function">C++ :  Function
+Programming</string>
+  <string name="msg_for_i_1_to_le">	for i = 1 to len(marks)&#13;
+	{&#13;
+		   marks[i+1] + marks[i ] = total;&#13;
+	}</string>
+  <string name="msg_pick_a_tech_sta">Pick a Tech Stack</string>
+  <string name="lbl2">;&#13;
+&#13;
+</string>
+  <string name="msg_pick_a_prefere">Pick a  Preference</string>
+  <string name="lbl3">((</string>
+  <string name="msg_else2">;&#13;
+		}&#13;
+		else&#13;
+		{&#13;
+			if (percentage &gt;= 60 &amp;&amp; percentage &lt;= 79)&#13;
+			{&#13;
+				grade = </string>
+  <string name="msg_i_0_i_len_ma"> i = 0; i&lt;len(marks))&#13;
+	{
+  i = i + 1;&#13;
+		total += marks[i];&#13;
+	}</string>
+  <string name="msg_e">;&#13;
+				}&#13;
+				else&#13;
+				{&#13;
+					grade = </string>
+  <string name="msg_there_s_tutoria">There\u2019s tutorial videos and demos
+for all concepts if you\u2019re a beginner</string>
+  <string name="lbl_hi_hadi"><![CDATA[<Hi, Hadi/> ]]></string>
+  <string name="lbl_correct">Correct</string>
+  <string name="msg_python_getting">Python: Getting Started</string>
+  <string name="lbl_python">Python</string>
+  <string name="lbl_sign_in">Sign In</string>
+  <string name="msg_prerequisites">Prerequisites::
+
+-&gt; Input/Output
+-&gt; If statments
+-&gt; Logic-building</string>
+  <string name="lbl_ronin">.RONIN</string>
+  <string name="lbl_html_web_3_0">HTML: Web 3.0</string>
+  <string name="lbl_popular_modules">Popular Modules</string>
+  <string name="msg_boss_challenge">Boss Challenge# 1:
+
+Bubble Sort</string>
+  <string name="msg_initialize_s">"// Initialize student's total marks to 0&#13;
+"</string>
+  <string name="lbl_question_1">Question#1: </string>
+  <string name="msg_for_int_i_0">	for (int i = 0; i &lt; len(marks); i++)&#13;
+	{&#13;
+		total += marks[i];&#13;
+	}</string>
+  <string name="lbl_input_output">Input/Output</string>
+  <string name="msg_useful_subrouti">Useful
+SubRoutines</string>
+  <string name="msg_python_4_every">Python  4 Everybody:
+Getting Started</string>
+  <string name="lbl_total_0"> total = 0;&#13;
+&#13;
+</string>
+  <string name="lbl_a">"'A'"</string>
+  <string name="lbl_b">"'B'"</string>
+  <string name="lbl_c">C++</string>
+  <string name="lbl_d">"'D'"</string>
+  <string name="lbl_f">"'F'"</string>
+  <string name="lbl_if_else_elseif">If else/elseif</string>
+  <string name="lbl_grade"> grade = </string>
+  <string name="msg_unlocked_lvl">Unlocked
+ Lvl. 1</string>
+  <string name="msg_i_0_i_len2"> i = 0; i &lt; len(marks); i++)&#13;
+	{&#13;
+		total  = marks[i] + marks[i + +];&#13;
+	}</string>
+  <string name="lbl_while_loops">While Loops</string>
+  <string name="msg_hi_looking_to">Hi! Looking to master the art of
+ coding? Let\u2019s Go!</string>
+  <string name="lbl_how_it_works">How it works</string>
+  <string name="lbl_html">HTML</string>
+  <string name="msg_else">;&#13;
+	}&#13;
+	else&#13;
+	{&#13;
+		if (percentage &gt;= 80 &amp;&amp; percentage &lt;= 89)&#13;
+		{&#13;
+			grade = </string>
+  <string name="msg_nested_if_el">	// Nested if else&#13;
+</string>
+  <string name="msg_max_marks_len"> max_marks = len * 100;&#13;
+&#13;
+	</string>
+  <string name="lbl_percentage"> percentage = 
+</string>
+  <string name="msg_html_for_web_3">HTML for
+Web 3.0</string>
+  <string name="msg_2571_8000_roni">2571/ 8000 Ronin XP Collected</string>
+  <string name="lbl_welcome"><![CDATA[<Welcome/>]]></string>
+  <string name="msg_select_what_tec">Select what tech stack you are 
+curious about</string>
+  <string name="msg_if_percentage">	if (percentage &gt;= 90)&#13;
+	{&#13;
+		grade = </string>
+  <string name="msg_loops_with_cond">Loops with
+conditions</string>
+  <string name="lbl_std"> std;&#13;
+&#13;
+</string>
+  <string name="msg_include_iostre"><![CDATA[#include<iostream>
+using namespace std;
+
+int main()
+{
+
+	// Store marks of all the subjects in an array
+	int marks[] = { 25, 65, 46, 98, 78, 65 };
+
+	// Max marks will be 100 * number of subjects
+	int len = sizeof(marks) / sizeof(marks[0]);
+	int max_marks = len * 100;
+
+	// Initialize student's total marks to 0
+	int total = 0;
+
+	// Initialize student's grade marks to F
+	char grade = 'F';
+
+	// Traverse though the marks array to find the sum.
+	for (int i = 0; i < len(marks); i++)
+	{
+		total += marks[i];
+	}
+
+	// Calculate the percentage.
+	// Since all the marks are integer,
+	// typecast the calculation to double.
+	double percentage = 
+                        ((double)(total) / max_marks) * 100;
+
+	// Nested if else
+	if (percentage >= 90)
+	{
+		grade = 'A';
+	}
+	else
+	{
+		if (percentage >= 80 && percentage <= 89)
+		{
+			grade = 'B';
+		}
+		else
+		{
+			if (percentage >= 60 && percentage <= 79)
+			{
+				grade = 'C';
+			}
+			else
+			{
+				if (percentage >= 33 && percentage <= 59)
+				{
+					grade = 'D';
+				}
+				else
+				{
+					grade = 'F';
+				}
+			}
+		}
+	}
+	cout << (grade) << endl;;
+}]]></string>
+  <string name="lbl_password">Password</string>
+  <string name="lbl_iostream"><![CDATA[<iostream>]]></string>
+  <string name="msg_store_marks">// Store marks of all the subjects in an array&#13;
+</string>
+  <string name="lbl_mp3_player">MP3 Player</string>
+  <string name="lbl_len"> len = </string>
+  <string name="lbl_getting_started">Getting Started</string>
+  <string name="lbl_complete_levels">Complete Levels</string>
+  <string name="lbl_main">main</string>
+  <string name="msg_choose_what_to">Choose what to Learn</string>
+  <string name="lbl_marks2">(marks)</string>
+  <string name="msg_i_t">; i++)&#13;
+	{&#13;
+		total += marks[i];&#13;
+	}&#13;
+&#13;
+</string>
+  <string name="lbl_arrays">Arrays</string>
+  <string name="lbl_go_premium">Go Premium</string>
+  <string name="msg_unlock_all_leve">Unlock all Levels</string>
+  <string name="msg_question_1_wha">Question#1: What code snippet would total the
+                              scores in the array above?</string>
+  <string name="msg">;&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+	}&#13;
+	cout &lt;&lt; (grade) &lt;&lt; endl;;&#13;
+}</string>
+  <string name="msg_max_marks_wi">// Max marks will be 100 * number of subjects</string>
+  <string name="lbl_see_more">see more &gt;</string>
+  <string name="lbl_solidity">Solidity</string>
+  <string name="msg_what_code_snipp">What code snippet would total the
+                              scores in the array above?</string>
+  <string name="lbl_categories">Categories</string>
+  <string name="lbl_sizeof">sizeof</string>
+  <string name="lbl_int">int</string>
+  <string name="msg_calculate_th">// Calculate the percentage.&#13;
+	// Since all the marks are integer,&#13;
+</string>
+  <string name="lbl_grade_finder">Grade Finder</string>
+  <string name="lbl_conditionals">Conditionals</string>
+  <string name="msg_new_challenge_p">New Challenge Patterns</string>
+  <string name="lbl_for_loops">For Loops</string>
+  <string name="msg_for_int_i_03">	for (int i = 0; i &lt; len(marks); i++)&#13;
+	{&#13;
+		total  = marks[i] + marks[i + +];&#13;
+	}</string>
+  <string name="lbl_progress">Progress</string>
+  <string name="msg_for_int_i_02">	for (int i = 0; i&lt;len(marks))&#13;
+	{
+  i = i + 1;&#13;
+		total += marks[i];&#13;
+	}</string>
+  <string name="lbl_challenges">Challenges</string>
+  <string name="lbl_ans">Ans)</string>
+  <string name="lbl_sign_up">Sign Up</string>
+  <string name="lbl_android_dev">Android Dev</string>
+  <string name="lbl_i_0_i_len"> i = 0; i &lt; len</string>
+  <string name="lbl_current_track">Current Track:</string>
+  <string name="lbl_levels">Levels</string>
+  <string name="lbl">()&#13;
+{&#13;
+&#13;
+	</string>
+  <string name="lbl_for">	for (</string>
+  <string name="lbl_c2">"'C'"</string>
+  <string name="lbl_using_namespace">using namespace</string>
+  <string name="msg_traverse_tho">	// Traverse though the marks array to find the sum.&#13;
+</string>
+  <string name="msg_go_through_as_m">Go through as many tracks as
+possible to get their Look-and-Feel</string>
+  <string name="lbl_play">Play</string>
+  <string name="lbl_email">Email</string>
+  <string name="lbl_discounts">Discounts</string>
+  <string name="msg_object_oriented">Object Oriented Programming (OOP) 
+  - C++</string>
+  <string name="lbl_basics">Basics</string>
+  <string name="msg_challenge_1_gr">Challenge#1: Grade Finder</string>
+  <string name="lbl_include">#include</string>
+  <string name="msg_advanced_concep">Advanced Concepts</string>
+  <string name="msg_c_a_beginner">C++:
+a Beginner\u2019s
+Guide</string>
+  <string name="msg_total_max">)(total) / max_marks) * 100;&#13;
+&#13;
+</string>
+  <string name="lbl_challenge_1">Challenge# 1:
+
+</string>
+  <string name="lbl_login">Login</string>
+  <string name="lbl_challenge_2">Challenge# 2:
+
+</string>
+  <string name="lbl_int2">	int</string>
+  <string name="msg_marks_25"> marks[] = { 25, 65, 46, 98, 78, 65 };&#13;
+&#13;
+	</string>
+  <string name="msg_1_2_3_4_5"> 1 
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8 
+ 9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60 
+ 61
+ 62</string>
+  <string name="msg_insert_code_sn">{Insert code snippet}</string>
+  <string name="msg_initialize_s2">"	// Initialize student's grade marks to F&#13;
+"</string>
+  <string name="lbl_forgot_password">Forgot Password</string>
+  <string name="lbl_marks_0">(marks[0]);&#13;
+	</string>
+  <string name="msg_i_0_i_len"> i = 0; i &lt; len(marks); i++)&#13;
+	{&#13;
+		total += marks[i];&#13;
+	}</string>
+  <string name="lbl_do_not_worry">Do not worry</string>
+  <string name="lbl_char">char</string>
+  <string name="msg_common_sorting">Common Sorting
+Algorithms</string>
+  <string name="lbl_double">double</string>
+  <string name="msg_els">;&#13;
+			}&#13;
+			else&#13;
+			{&#13;
+				if (percentage &gt;= 33 &amp;&amp; percentage &lt;= 59)&#13;
+				{&#13;
+					grade = </string>
+  <string name="msg_earn_medals_to">Earn Medals to unlock advanced
+levels. Challenge Yourself!</string>
+  <string name="lbl_loops">Loops</string>
+  <string name="lbl_explore">Explore</string>
+  <string name="msg_typecast_the">// typecast the calculation to double.</string>
+  <string name="msg_learn_solididit">Learn Solididity
+for BlockChain</string>
+  <string name="msg_solve_tests_m">Solve tests,  MCQS, and logic 
+problems. Learn from trial and error</string>
+</resources>

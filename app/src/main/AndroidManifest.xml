@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.muhammadsapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.muhammadsapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity android:exported="true"
+            android:name="com.muhammadsapplication.app.modules.splashscreen.ui.SplashscreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.levels1.ui.Levels1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.gettingstartedtwo.ui.GettingStartedTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.testquestion.ui.TestquestionActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.homepageexplore1.ui.HomepageExplore1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.gettingstarted.ui.GettingStartedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.muhammadsapplication.app.modules.gettingstartedone.ui.GettingStartedOneActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

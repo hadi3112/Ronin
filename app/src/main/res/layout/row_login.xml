@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginRowModel" type="com.muhammadsapplication.app.modules.login.data.model.LoginRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylewhite_1">
+        <TextView android:ellipsize="end" android:id="@+id/txtEmail"
+            android:layout_gravity="top|start"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_55pxh"
+            android:layout_marginStart="@dimen/_55pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{loginRowModel.txtEmail}"
+            style="@style/txtPoppinsregular18" tools:text="@string/lbl_email"/>
+        <LinearLayout android:id="@+id/linearRowclock"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal" style="@style/groupStylewhite_2">
+            <FrameLayout android:id="@+id/framePersonicon"
+                android:layout_height="@dimen/_20pxv"
+                android:layout_marginBottom="@dimen/_12pxv"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_22pxh">
+                <ImageView android:id="@+id/imageClock"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_20pxh"
+                    android:layout_width="@dimen/_22pxh"
+                    android:scaleType="centerCrop" circular="@{true}"
+                    imageRes="@{@drawable/img_clock}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_clock"/>
+                <ImageView android:id="@+id/imageUser241"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_12pxh"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginEnd="@dimen/_5pxh"
+                    android:layout_marginStart="@dimen/_5pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_12pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_user241"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_user241"/>
+            </FrameLayout>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtEmailhint"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8pxv"
+                android:layout_marginEnd="@dimen/_208pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_weight="0.69" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{loginRowModel.txtEmailhint}"
+                style="@style/txtPoppinsregular18" tools:text="@string/lbl_email"/>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

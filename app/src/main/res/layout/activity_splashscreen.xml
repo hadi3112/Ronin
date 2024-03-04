@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashscreenVM" type="com.muhammadsapplication.app.modules.splashscreen.data.viewmodel.SplashscreenVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameSplashScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyle">
+        <LinearLayout android:id="@+id/linearColumntechlineseven"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_68pxv"
+            android:layout_marginTop="@dimen/_68pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRowtechlineseven"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageTechlineSeven"
+                        android:layout_height="@dimen/_69pxh"
+                        android:layout_marginBottom="@dimen/_3pxv"
+                        android:layout_width="@dimen/_100pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_techline7}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_techline7"/>
+                    <ImageView android:id="@+id/imageTelevision"
+                        android:layout_height="@dimen/_65pxh"
+                        android:layout_marginStart="@dimen/_179pxh"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="@dimen/_81pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_television_red_a700}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_television_red_a700"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:id="@+id/linearRowtechlinefour"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageTechlineFour"
+                    android:layout_height="@dimen/_65pxh"
+                    android:layout_marginTop="@dimen/_28pxv"
+                    android:layout_width="@dimen/_104pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_techline4}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_techline4"/>
+                <ImageView android:id="@+id/imageTechlineSix"
+                    android:layout_height="@dimen/_72pxh"
+                    android:layout_marginBottom="@dimen/_21pxv"
+                    android:layout_marginStart="@dimen/_150pxh"
+                    android:layout_width="@dimen/_106pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_techline6}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_techline6"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/imageAppicon"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_118pxh"
+                android:layout_marginEnd="@dimen/_116pxh"
+                android:layout_marginStart="@dimen/_119pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_width="@dimen/_124pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_appicon"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_appicon"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_119pxh"
+                android:layout_marginStart="@dimen/_119pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{splashscreenVM.splashscreenModel.txtPrice}"
+                style="@style/txtPoppinsbold24" tools:text="@string/lbl_ronin"/>
+            <LinearLayout android:id="@+id/linearRowtechlineone"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_65pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumntechlineone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_weight="0.61"
+                    android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageTechlineOne"
+                        android:layout_height="@dimen/_65pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="@dimen/_118pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_techline4}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_techline4"/>
+                    <ImageView android:id="@+id/imageTechlineFive"
+                        android:layout_height="@dimen/_48pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_width="@dimen/_44pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_techline7"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_techline7"/>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/frameStacktelevisionOne"
+                    android:layout_height="@dimen/_122pxv"
+                    android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_141pxh">
+                    <ImageView android:id="@+id/imageTelevisionOne"
+                        android:layout_gravity="top|end"
+                        android:layout_height="@dimen/_69pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="@dimen/_61pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_techline6}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_techline6"/>
+                    <ImageView android:id="@+id/imageTechlinTwo"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_65pxv"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_television_red_a700}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_television_red_a700"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
